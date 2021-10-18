@@ -200,6 +200,7 @@ section{
     top: 0;
 }
 .project-description > h3{
+    margin-top: 15px;
     font-weight: 450;
 }
 .project-box:hover > .project-description{
@@ -213,7 +214,7 @@ section{
     border-radius: 10px;
     transition: background-color 0.25s ease-in-out;
     position:absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
