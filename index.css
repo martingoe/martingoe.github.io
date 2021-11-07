@@ -157,6 +157,8 @@ section{
 #contact-wrapper{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 #contact-wrapper > a{
@@ -281,7 +283,7 @@ section{
     fill: #4D5970;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     #skills-wrapper {
         flex-direction: column;
     }
@@ -291,4 +293,10 @@ section{
         border-top: 1px solid #d8dee9;
         border-bottom: 1px solid #d8dee9;
     }
+    .project-box{
+        min-width: 60%;
+    }
+    /* #contact-wrapper{ */
+        /* flex-direction: column; */
+    /* } */
   }
