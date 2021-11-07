@@ -281,7 +281,7 @@ section{
     fill: #4D5970;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     #skills-wrapper {
         flex-direction: column;
     }
